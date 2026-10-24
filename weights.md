@@ -15,4 +15,6 @@ Each factor scored 1–5, with a separate evidence confidence (high / medium / l
 | ~~Language and timetable compatibility~~ | — | German moved to a per-region gate; timetable folded into job access |
 | **Total** | **100%** | |
 
+**Package 1 recommendation (not yet applied):** cost → 10%, job access → 35%, industry integration → 25%. Reason: tuition-free programmes are fundable under expected assumptions, so cost no longer separates candidates; TUM-type tuition becomes a hard filter instead. See `reports/01-feasibility.md` §4.
+
 Rationale for removing the language factor: in most regions, German level determines whether working-student infrastructure roles are reachable at all. Scoring it separately at 5% while it drives the 30% factor double-counts and underweights it.
