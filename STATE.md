@@ -15,7 +15,7 @@ Route A (master's) is the main route; Route B is not viable now. The binding con
 
 ## Package 2 verdict
 
-14 shortlisted (Tier 1: TU Berlin CS, TU Darmstadt CS, Fulda GSD, Bingen CS, TU Dresden CS, Saarland Cybersecurity, Bochum CS, TH Köln Digital Sciences). Grade 2.5 is exactly the HAW cut-off; English test certificates are demanded almost everywhere; late deadlines collide with the visa queue.
+18 shortlisted after the MGU sweep (Tier 1: TU Berlin CS, TU Darmstadt CS, Fulda GSD, Bingen CS, TU Dresden CS – DSE track, TH Köln Communication Systems and Networks, HPI/Potsdam CS, Saarland Cybersecurity, Bochum CS). 7 unverified MGU leads pending official checks. Grade 2.5 is exactly the HAW cut-off; English test certificates are demanded almost everywhere; late deadlines collide with the visa queue.
 
 ## URGENT actions for the candidate (outside the research)
 

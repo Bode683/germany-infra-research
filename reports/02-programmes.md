@@ -1,6 +1,6 @@
 # Package 2 — Programme discovery
 
-Date: 2026-10-24. Full inventory: `programmes.csv` (32 rows). Sources: S016–S023.
+Date: 2026-10-24. Full inventory: `programmes.csv` (44 rows). Sources: S016–S030. Updated the same day with a sweep of the mygermanuniversity.com catalogue (see the addendum at the end).
 
 ## Method
 
@@ -65,3 +65,33 @@ Grade: Rostock (needs >3.5/4), Bamberg (2.0), Frankfurt UAS IT (2.0 + EE backgro
 ## Package 3 regions
 
 Berlin, Rhine-Main (Frankfurt/Darmstadt/Mainz), Dresden, Ruhr (Bochum/Düsseldorf), Cologne, Saarbrücken. Needs the network allowlist fix (`rest.arbeitsagentur.de`, university domains) noted in `STATE.md`.
+
+---
+
+## Addendum — mygermanuniversity.com (MGU) catalogue sweep
+
+**What was done:** MGU lists 24,261 programmes and serves them through a public JSON API. I pulled every programme it labels English-taught in **35 infrastructure-relevant subjects** (CS, applied CS, IT, software engineering, communications/networks, security, distributed and parallel computing, DevOps, systems engineering): **412 programmes**, 291 master's, **223** with non-EU tuition ≤ €1,500/semester. I removed off-target fields and anything already in the inventory, then checked the strongest new leads on official university pages.
+
+**How reliable MGU is: leads, not evidence.**
+- Programme names contain **Cyrillic look-alike characters** (an anti-scraping watermark). Automated matching against DAAD fails, so "155 not in DAAD" is mostly false novelty.
+- **Stale entries:** it lists TU Dresden *Distributed Systems Engineering* as a standalone MSc. TU Dresden says that programme is **discontinuing** and is now a track inside MSc Computer Science (S030).
+- **Wrong language labels:** it tags UDE *Software and Network Engineering* as English/German. The official page requires **DSH-2 German** for non-EU applicants (S029).
+- "English/German" programmes on MGU are often German-taught with some English modules. None was counted as English-taught without an official check.
+
+**Net new candidates (verified on official pages):**
+
+| # | Programme | Status | Why it matters |
+|---|---|---|---|
+| P34 | **TH Köln — Communication Systems and Networks** | **Tier 1** | Networking-focused HAW programme, primarily English, **open admission** (removes the grade-2.5 risk), 3 semesters, winter and summer intake. Needs ≥110 credits in maths/physics/EE/CS: likely met by a Maths+CS degree. Deadline unverified. |
+| P35 | **HPI / Uni Potsdam — Computer Science** | **Tier 1 (selection unknown)** | Systems track: Large-Scale Systems Architectures, Systems Development and Operations, Systems Infrastructure. Free, deadlines 1 Jun / 1 Dec, commutable to Berlin. C1 English. Probably competitive. |
+| P33 | **BHT Berlin — Information and Communications Engineering** | Tier 2 | Berlin HAW, English, 3 semesters, Network Engineering + Network Security + Distributed Systems modules. The core is signal processing, so it may expect an EE background; admission rules not yet retrieved. |
+| P36 | TU Darmstadt — IT Security | Tier 2 | Same C1/GRE/entrance-exam issues as TUD CS. |
+| P16 (updated) | TU Dresden CS — **Distributed Systems Engineering track** | Tier 1 (existing) | The DSE track is the most infrastructure-aligned path at Dresden; it reportedly needs C1 English (third-party, verify). |
+
+**Unverified leads** (MGU only; official pages not yet checked or unreachable): Frankfurt UAS General Computer Science (site down), Schmalkalden Applied CS, TH OWL Information Technology, TUHH Computer Science, KIT CS, University of Stuttgart CS (15 Jan deadline: good for visa timing), Lübeck IT Security.
+
+**MGU-listed "English/German" programmes probably German-taught (not pursued):** Würzburg, FAU, Landshut, Hof (Informatik), Ulm (Informatik), Lübeck (Informatik), RWTH CS.
+
+**Effect on the shortlist:** Tier 1 becomes **TU Berlin CS, TU Darmstadt CS, Fulda GSD, Bingen CS, TU Dresden CS (DSE track), TH Köln Communication Systems and Networks, HPI/Potsdam CS, Saarland Cybersecurity, Bochum CS**. TH Köln Digital Sciences moves to Tier 2: its German-module risk and weaker infrastructure focus make CSN at the same university the better option.
+
+**Two Package 3 regions get stronger:** Cologne/Bonn (TH Köln CSN plus Digital Sciences) and Berlin/Potsdam (TU Berlin, HPI, BHT).
