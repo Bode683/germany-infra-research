@@ -5,15 +5,21 @@ Last updated: 2026-10-24
 | Package | Status |
 |---|---|
 | 1 — Feasibility and Route B test | **DONE** — `reports/01-feasibility.md` |
-| 2 — Programme discovery | **NEXT** |
-| 3 — Employment validation | not started — needs network allowlist (see below) |
+| 2 — Programme discovery | **DONE** — `reports/02-programmes.md`, `programmes.csv` |
+| 3 — Employment validation | **NEXT** — needs network allowlist (see below). Regions: Berlin, Rhine-Main, Dresden, Ruhr, Cologne, Saarbrücken |
 | 4 — Decision | not started (needs `weights.md` LOCKED) |
 
 ## Package 1 verdict
 
 Route A (master's) is the main route; Route B is not viable now. The binding constraint is the Yaoundé visa queue (up to 1 year), not money. Grade converts to exactly 2.5.
 
+## Package 2 verdict
+
+14 shortlisted (Tier 1: TU Berlin CS, TU Darmstadt CS, Fulda GSD, Bingen CS, TU Dresden CS, Saarland Cybersecurity, Bochum CS, TH Köln Digital Sciences). Grade 2.5 is exactly the HAW cut-off; English test certificates are demanded almost everywhere; late deadlines collide with the visa queue.
+
 ## URGENT actions for the candidate (outside the research)
+
+0. **From Package 2:** book IELTS Academic (target 7.0); check transcript for ≥12 CP theoretical CS (TU Berlin) and fill in TU Darmstadt's eligibility checklist; request a uni-assist VPD to get the official German grade; decide on GRE.
 
 1. **Register on the Yaoundé embassy waitlist, category "Studium – Regulär"**, after confirming on the embassy site or contact form that you can register before having an admission letter. Register once, in the correct category.
 2. **Check anabin** (anabin.kmk.org → Institutionen → Kamerun → University of Bamenda; then the degree entry). Report the status (H+ / H+/- / H-).
@@ -27,7 +33,7 @@ Route A (master's) is the main route; Route B is not viable now. The binding con
 3. anabin result (action 2).
 4. Review `weights.md`. Package 1 recommends cutting cost from 20% to 10%.
 
-## Package 2 hard filters (updated)
+## Package 2 hard filters (applied)
 
 English-taught or German ≤ B1; grade cut-off ≥ 2.5 accepted (competitive ranking = reach); non-EU tuition ≤ €1,500/semester; winter 2027/28 intake; prefer 3-semester programmes and programmes with a summer intake as well.
 
