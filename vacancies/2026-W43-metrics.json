@@ -1,0 +1,295 @@
+{
+ "berlin": {
+  "ba_unique_ads_matched": 1550,
+  "ba_infra_ads_all_levels": {
+   "A": 184,
+   "C": 207,
+   "B": 454
+  },
+  "ba_entry_level_by_kind": {
+   "junior": 15,
+   "student": 12,
+   "internship": 7
+  },
+  "ba_werkstudent_all_fields_total": 54,
+  "arbeitnow": {
+   "ads": 531,
+   "infra_all_levels": 33,
+   "infra_entry": 2,
+   "it_ads_english": 104,
+   "it_ads": 141
+  },
+  "entry_rows_checked": 43,
+  "entry_german_required": 27,
+  "entry_english_ad_or_german_optional": 7,
+  "entry_skills": {
+   "security": 18,
+   "python": 14,
+   "linux": 13,
+   "windows/ad": 12,
+   "sql/db": 12,
+   "networking": 11,
+   "monitoring": 7,
+   "azure": 6,
+   "docker/containers": 6,
+   "kubernetes": 6,
+   "go": 5,
+   "virtualisation": 3,
+   "ansible/config": 3,
+   "ci/cd": 3,
+   "terraform/iac": 2,
+   "aws": 1,
+   "gcp": 1
+  }
+ },
+ "cologne-bonn": {
+  "ba_unique_ads_matched": 1311,
+  "ba_infra_ads_all_levels": {
+   "A": 168,
+   "C": 178,
+   "B": 320
+  },
+  "ba_entry_level_by_kind": {
+   "junior": 13,
+   "student": 5,
+   "internship": 3
+  },
+  "ba_werkstudent_all_fields_total": 61,
+  "arbeitnow": {
+   "ads": 100,
+   "infra_all_levels": 10,
+   "infra_entry": 3,
+   "it_ads_english": 4,
+   "it_ads": 20
+  },
+  "entry_rows_checked": 26,
+  "entry_german_required": 14,
+  "entry_english_ad_or_german_optional": 0,
+  "entry_skills": {
+   "security": 9,
+   "networking": 8,
+   "ci/cd": 5,
+   "linux": 4,
+   "docker/containers": 4,
+   "python": 4,
+   "sql/db": 4,
+   "windows/ad": 4,
+   "terraform/iac": 2,
+   "ansible/config": 2,
+   "go": 2,
+   "monitoring": 2,
+   "azure": 2,
+   "virtualisation": 1,
+   "aws": 1,
+   "kubernetes": 1
+  }
+ },
+ "dresden": {
+  "ba_unique_ads_matched": 537,
+  "ba_infra_ads_all_levels": {
+   "A": 34,
+   "C": 86,
+   "B": 156
+  },
+  "ba_entry_level_by_kind": {
+   "junior": 5,
+   "student": 4
+  },
+  "ba_werkstudent_all_fields_total": 11,
+  "arbeitnow": {
+   "ads": 9,
+   "infra_all_levels": 1,
+   "infra_entry": 0,
+   "it_ads_english": 1,
+   "it_ads": 4
+  },
+  "entry_rows_checked": 9,
+  "entry_german_required": 6,
+  "entry_english_ad_or_german_optional": 0,
+  "entry_skills": {
+   "python": 6,
+   "security": 5,
+   "linux": 4,
+   "networking": 4,
+   "go": 2,
+   "docker/containers": 2,
+   "monitoring": 2,
+   "sql/db": 2,
+   "ansible/config": 1,
+   "windows/ad": 1,
+   "kubernetes": 1,
+   "azure": 1
+  }
+ },
+ "fulda": {
+  "ba_unique_ads_matched": 73,
+  "ba_infra_ads_all_levels": {
+   "A": 5,
+   "C": 11,
+   "B": 12
+  },
+  "ba_entry_level_by_kind": {
+   "junior": 1
+  },
+  "ba_werkstudent_all_fields_total": 0,
+  "arbeitnow": {
+   "ads": 1,
+   "infra_all_levels": 0,
+   "infra_entry": 0,
+   "it_ads_english": 0,
+   "it_ads": 0
+  },
+  "entry_rows_checked": 1,
+  "entry_german_required": 0,
+  "entry_english_ad_or_german_optional": 0,
+  "entry_skills": {
+   "linux": 1,
+   "windows/ad": 1,
+   "security": 1
+  }
+ },
+ "rhine-main": {
+  "ba_unique_ads_matched": 1605,
+  "ba_infra_ads_all_levels": {
+   "A": 200,
+   "C": 230,
+   "B": 478
+  },
+  "ba_entry_level_by_kind": {
+   "student": 6,
+   "junior": 19,
+   "internship": 5
+  },
+  "ba_werkstudent_all_fields_total": 81,
+  "arbeitnow": {
+   "ads": 101,
+   "infra_all_levels": 8,
+   "infra_entry": 1,
+   "it_ads_english": 4,
+   "it_ads": 22
+  },
+  "entry_rows_checked": 35,
+  "entry_german_required": 27,
+  "entry_english_ad_or_german_optional": 0,
+  "entry_skills": {
+   "security": 12,
+   "networking": 11,
+   "windows/ad": 10,
+   "linux": 8,
+   "python": 5,
+   "virtualisation": 5,
+   "docker/containers": 4,
+   "ci/cd": 4,
+   "azure": 4,
+   "monitoring": 4,
+   "kubernetes": 2,
+   "go": 2,
+   "terraform/iac": 1,
+   "sql/db": 1
+  }
+ },
+ "ruhr": {
+  "ba_unique_ads_matched": 935,
+  "ba_infra_ads_all_levels": {
+   "A": 53,
+   "B": 214,
+   "C": 96
+  },
+  "ba_entry_level_by_kind": {
+   "internship": 5,
+   "junior": 10,
+   "student": 9
+  },
+  "ba_werkstudent_all_fields_total": 49,
+  "arbeitnow": {
+   "ads": 46,
+   "infra_all_levels": 3,
+   "infra_entry": 0,
+   "it_ads_english": 0,
+   "it_ads": 5
+  },
+  "entry_rows_checked": 25,
+  "entry_german_required": 14,
+  "entry_english_ad_or_german_optional": 0,
+  "entry_skills": {
+   "security": 15,
+   "networking": 11,
+   "windows/ad": 7,
+   "linux": 6,
+   "azure": 3,
+   "sql/db": 3,
+   "virtualisation": 2,
+   "ci/cd": 2,
+   "python": 1,
+   "go": 1
+  }
+ },
+ "saarbruecken": {
+  "ba_unique_ads_matched": 193,
+  "ba_infra_ads_all_levels": {
+   "A": 11,
+   "B": 59,
+   "C": 26
+  },
+  "ba_entry_level_by_kind": {},
+  "ba_werkstudent_all_fields_total": 2,
+  "arbeitnow": {
+   "ads": 3,
+   "infra_all_levels": 0,
+   "infra_entry": 0,
+   "it_ads_english": 0,
+   "it_ads": 0
+  },
+  "entry_rows_checked": 0,
+  "entry_german_required": 0,
+  "entry_english_ad_or_german_optional": 0,
+  "entry_skills": {}
+ },
+ "ref-munich": {
+  "arbeitnow": {
+   "ads": 328,
+   "infra_all_levels": 21,
+   "infra_entry": 2,
+   "it_ads_english": 66,
+   "it_ads": 89
+  },
+  "entry_rows_checked": 9,
+  "entry_german_required": 1,
+  "entry_english_ad_or_german_optional": 7,
+  "entry_skills": {
+   "security": 5,
+   "python": 4,
+   "sql/db": 4,
+   "networking": 4,
+   "monitoring": 3,
+   "docker/containers": 2,
+   "kubernetes": 2,
+   "aws": 2,
+   "azure": 2,
+   "gcp": 2,
+   "ci/cd": 2,
+   "go": 1,
+   "linux": 1
+  }
+ },
+ "ref-hamburg": {
+  "arbeitnow": {
+   "ads": 130,
+   "infra_all_levels": 7,
+   "infra_entry": 1,
+   "it_ads_english": 13,
+   "it_ads": 25
+  },
+  "entry_rows_checked": 4,
+  "entry_german_required": 2,
+  "entry_english_ad_or_german_optional": 0,
+  "entry_skills": {
+   "sql/db": 3,
+   "networking": 2,
+   "docker/containers": 1,
+   "kubernetes": 1,
+   "python": 1,
+   "security": 1
+  }
+ }
+}

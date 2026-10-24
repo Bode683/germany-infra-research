@@ -16,9 +16,12 @@ Do not start the next package.
 ## 2. Market Tracker — weekly (create only after Package 2 has a shortlist)
 
 ```
-Read CLAUDE.md and programmes.csv. For each region with a status=shortlisted programme, collect 20–30 current vacancies from BA Jobsuche (prefer its API) and employer career pages.
-Classify each as group A/B/C per PLAN.md; record German level, experience requirement, student eligibility, URL and posting date, using vacancies/SCHEMA.csv.
-Deduplicate against earlier vacancies/*.csv files. Write vacancies/YYYY-WW.csv.
+Read CLAUDE.md, programmes.csv and reports/03-employment.md.
+Run: python3 scripts/ba_collect.py /tmp/ba && python3 scripts/ba_collect.py /tmp/ba enrich
+Download the Arbeitnow feed (https://www.arbeitnow.com/api/job-board-api, all pages) to /tmp/an.json.
+Run: python3 scripts/analyze_vacancies.py /tmp/ba /tmp/an.json vacancies/YYYY-Www.csv vacancies/YYYY-Www-metrics.json (week label defaults to the current ISO week).
+Do not scrape LinkedIn, StepStone or Indeed (terms of service).
+Compare with the previous week's metrics: per region, entry-level counts, English-accessible counts, top skills. Append a short dated trend note to reports/market-tracker.md.
 Re-check application deadlines and admission pages of shortlisted programmes; record any change in STATE.md under "Watch dates" with the source URL.
 Note which sources were blocked. Commit and push to main.
 ```
